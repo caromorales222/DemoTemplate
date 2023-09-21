@@ -10,7 +10,7 @@ exports = function(changeEvent) {
     Access the latest version of the changed document
     (with Full Document enabled for Insert, Update, and Replace operations):*/
     const fullDocument = changeEvent.fullDocument;
-    console.log("hola mundo")
+    console.log("hola")
     console.log(JSON.stringify(fullDocument))
     console.log(JSON.stringify(changeEvent["operationType"]))
     /*const updateDescription = changeEvent.updateDescription;
