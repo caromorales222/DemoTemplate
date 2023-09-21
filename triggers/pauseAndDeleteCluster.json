@@ -1,0 +1,16 @@
+{
+    "name": "pauseAndDeleteCluster",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 20 * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_pauseAndDeleteCluster_1687251601"
+            }
+        }
+    }
+}
