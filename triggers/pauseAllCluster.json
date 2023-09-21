@@ -1,4 +1,5 @@
 {
+    "id": "642d60fce3481bbdb0550774",
     "name": "pauseAllCluster",
     "type": "SCHEDULED",
     "config": {

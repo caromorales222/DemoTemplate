@@ -1,4 +1,5 @@
 {
+    "id": "63bed2d622d6461e886cea07",
     "name": "pauseAndDeleteCluster",
     "type": "SCHEDULED",
     "config": {
